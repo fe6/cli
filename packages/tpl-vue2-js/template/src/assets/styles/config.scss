@@ -1,0 +1,56 @@
+/** @format */
+
+$family: DINAlternate-Bold, -apple-system, BlinkMacSystemFont, Helvetica Neue,
+  PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC,
+  WenQuanYi Micro Hei, sans-serif;
+
+$main: #941df2;
+
+$danger: #f00;
+
+$bg: #f4f4f4;
+
+$black: #333;
+
+$gray: #999;
+// 禁用颜色
+$disable: #ccc;
+// 边框颜色
+$border: #dcdfe6;
+// 文字颜色
+$text: #333;
+
+$white: #fff;
+// 移入的背景色
+$hover-bg: #ecf5ff;
+// 全局进度条颜色
+$nprogress: $main;
+// 警告颜色
+$warning: #e6a23c;
+//成功/完成颜色
+$green: #67c23a;
+//灰色背景色
+$gray-bg: #f9f9f9;
+// 成功
+$success: $green;
+// 投影
+$shadow: 0 2px 4px rgba(212, 124, 124, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.clearfix {
+  zoom: 1;
+
+  &::after {
+    content: '';
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "@fe6/cli-utils",
+  "version": "0.0.0",
+  "description": "fe6-cli 软件包的共享实用程序",
+  "keywords": [
+    "fe6",
+    "cli",
+    "cli-utils"
+  ],
+  "author": "李梦龙 <649076408@qq.com>",
+  "main": "./lib/index.js",
+  "license": "MIT",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fe6/cli.git",
+    "directory": "packages/@fe6/cli-utils"
+  },
+  "bugs": {
+    "url": "https://github.com/fe6/cli/issues"
+  },
+  "homepage": "https://github.com/fe6/cli#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "chalk": "^4.1.0",
+    "execa": "^4.0.3",
+    "ora": "^4.0.5",
+    "read-pkg": "^5.2.0",
+    "readline": "^1.3.0",
+    "semver": "^7.3.2",
+    "strip-ansi": "^6.0.0",
+    "validate-npm-package-name": "^3.0.0"
+  }
+}

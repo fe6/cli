@@ -1,0 +1,16 @@
+/** @format */
+
+@import '~assets/styles/font.scss';
+@import '~assets/styles/components/nprogress.scss';
+@import '~assets/styles/config.scss';
+
+body {
+  background: #f2f2f2;
+}
+
+.app {
+  font-family: $family;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
