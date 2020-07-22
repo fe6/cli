@@ -10,7 +10,8 @@
       "registry": "http://registry.npmjs.org",
       "ignoreChanges": [
         "*.log"
-      ]
+      ],
+      "message":"build($npm): publish"
     },
     "bootstrap": {
       "npmClient": "yarn",
