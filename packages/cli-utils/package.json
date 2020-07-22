@@ -1,6 +1,6 @@
 {
   "name": "@fe6/cli-utils",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "fe6-cli 软件包的共享实用程序",
   "keywords": [
     "fe6",
