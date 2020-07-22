@@ -1,0 +1,12 @@
+/** @format */
+
+@import '~assets/styles/config.scss';
+
+.home {
+  margin: 200px auto;
+  width: 300px;
+
+  &-img {
+    width: 100%;
+  }
+}

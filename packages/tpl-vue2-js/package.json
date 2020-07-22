@@ -1,0 +1,37 @@
+{
+  "name": "@fe6/tpl-vue2-js",
+  "version": "0.0.0",
+  "description": "version project of vue2",
+  "keywords": [
+    "fe6"
+  ],
+  "author": "李梦龙 <649076408@qq.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "lib": "template",
+    "test": "__tests__"
+  },
+  "files": [
+    "template"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iq9891/cli.git",
+    "directory": "packages/@fe6/tpl-vue2-js"
+  },
+  "bugs": {
+    "url": "https://github.com/iq9891/cli/issues"
+  },
+  "homepage": "https://github.com/iq9891/cli#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.3.2",
+    "metalsmith": "^2.3.0"
+  }
+}

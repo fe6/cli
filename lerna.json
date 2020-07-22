@@ -1,0 +1,24 @@
+{
+  "npmClient": "yarn",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.0.0",
+  "command": {
+    "publish": {
+      "npmClient": "yarn",
+      "registry": "http://registry.npmjs.org",
+      "ignoreChanges": [
+        "*.log"
+      ]
+    },
+    "bootstrap": {
+      "npmClient": "yarn",
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
+    }
+  },
+  "lerna": "3.22.1",
+  "useWorkspaces": true
+}
