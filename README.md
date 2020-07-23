@@ -19,6 +19,3 @@ fe6 init my-project
 # OR
 fe6 init a -c https://github.com/iq9891/ieditor.git
 ```
-
-## 使用
-
