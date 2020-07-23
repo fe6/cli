@@ -3,8 +3,8 @@
 const program = require("commander");
 const minimist = require("minimist");
 const { chalk, warn } = require("@fe6/cli-utils");
-const cleanArgs = require("../../lib/util/clean-args");
-const init = require("../../lib/init");
+const cleanArgs = require("../util/clean-args");
+const init = require("../init");
 
 module.exports = () => {
   program

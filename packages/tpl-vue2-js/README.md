@@ -9,3 +9,5 @@
 - 接口的自动导入 `src/apis` 中，命名格式遵循 `/\.apis\.js$/`
 - 路由的自动导入
 - 环境变量的简单配置
+
+[更新记录](https://github.com/fe6/cli/blob/master/packages/tpl-vue2-js/CHANGELOG.md)

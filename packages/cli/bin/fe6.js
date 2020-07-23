@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-require("./cmd")();
+require("../lib/cmd")();
