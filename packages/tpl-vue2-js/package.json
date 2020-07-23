@@ -13,7 +13,8 @@
     "test": "__tests__"
   },
   "files": [
-    "template"
+    "template",
+    "prompt.js"
   ],
   "publishConfig": {
     "registry": "http://registry.npmjs.org/",
