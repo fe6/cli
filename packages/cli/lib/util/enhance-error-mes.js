@@ -6,10 +6,10 @@ const { chalk, log } = require("@fe6/cli-utils");
 const enhanceErrorMessages = (methodName, logs) => {
   program.Command.prototype[methodName] = (...args) => {
     /* eslint-disable no-underscore-dangle */
-    if (methodName === "unknownOption" && this._allowUnknownOption) {
+    if (methodName === "unknownOption" && program._allowUnknownOption) {
       return;
     }
-    this.outputHelp();
+    program.outputHelp();
     log(`  ${chalk.red(logs(...args))}`);
     log();
     process.exit(1);
