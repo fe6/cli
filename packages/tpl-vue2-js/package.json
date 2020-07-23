@@ -1,6 +1,6 @@
 {
   "name": "@fe6/tpl-vue2-js",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "version project of vue2",
   "keywords": [
     "fe6"
@@ -30,6 +30,6 @@
   },
   "homepage": "https://github.com/fe6/cli#readme",
   "dependencies": {
-    "@fe6/cli-utils": "^0.1.1"
+    "@fe6/cli-utils": "^0.2.0"
   }
 }

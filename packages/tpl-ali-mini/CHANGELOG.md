@@ -9,22 +9,3 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 * **$tpl:** add tpl-ali-mini tpl ([7f2c0d9](https://github.com/fe6/cli/commit/7f2c0d9650c6292617ee05fc62b633b2f020bf21))
-
-
-
-
-
-## [0.1.1](https://github.com/fe6/cli/compare/v0.1.0...v0.1.1) (2020-07-23)
-
-**Note:** Version bump only for package @fe6/cli-utils
-
-
-
-
-
-# 0.1.0 (2020-07-22)
-
-
-### Features
-
-* **$init:** create and build ([98508ab](https://github.com/fe6/cli/commit/98508abe61ef86d2a0301996bf216e12c80ac8ef))
