@@ -1,3 +1,5 @@
+/** @format */
+
 const path = require("path");
 const { tpl } = require("@fe6/cli-utils");
 const tplPrompt = require("./prompt.js");

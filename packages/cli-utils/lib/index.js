@@ -5,7 +5,15 @@ exports.execa = require("execa");
 exports.semver = require("semver");
 exports.camelize = require("./camelize");
 
-const list = ["camelize", "exit", "logger", "spinner", "pkg", "validate"];
+const list = [
+  "camelize",
+  "exit",
+  "logger",
+  "spinner",
+  "pkg",
+  "validate",
+  "tpl"
+];
 
 /* eslint-disable global-require */
 /* eslint-disable import/no-dynamic-require */

@@ -1,0 +1,1 @@
+<web-view url="{{url}}" style="height: 300rpx; width: 100%"></web-view>

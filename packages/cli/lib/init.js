@@ -99,7 +99,7 @@ async function create(projectName, options) {
       }
     });
   } else {
-    const { template } = await inquirer.prompt([
+    const answer = await inquirer.prompt([
       {
         name: "template",
         type: "list",
@@ -140,6 +140,7 @@ async function create(projectName, options) {
         default: "This is a new project"
       }
     ]);
+    const { template } = answer;
     const tplName = `@fe6/${template}`;
     const hasTpl = Object.keys(pkg.dependencies).find(item => item === tplName);
 
@@ -151,7 +152,7 @@ async function create(projectName, options) {
       stopSpinner(false);
       const err = await tplModule({
         data: {
-          tpl: template,
+          ...answer,
           cwd: targetDir,
           date: dayjs().format("YYYY-MM-DD HH:mm:ss")
         },
