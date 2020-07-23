@@ -2,6 +2,12 @@
 
 快速为模块和应用程序创建一个开发环境
 
+## 准备
+
+- [NodeJs 8.9+](https://nodejs.org/)
+- [nvm](https://github.com/nvm-sh/nvm): 推荐 NodeJs 版本管理 
+- [yarn](https://yarnpkg.com)： 比 NodeJs 内置的 npm 安装的快
+
 ## 起步
 
 安装：
@@ -17,14 +23,46 @@ yarn global add @fe6/cli
 ```bash
 fe6 init my-project
 # OR
-fe6 init a -c https://github.com/iq9891/ieditor.git
+fe6 init my-project -c https://github.com/iq9891/ieditor.git
 ```
 
-# 示例
+## 命令
+
+- 创建项目 **my-project**
+
+```bash
+fe6 init my-project
+```
+
+- 创建项目 **my-project** , 覆盖目标目录（如果存在）
+
+```bash
+fe6 init my-project -f
+# OR
+fe6 init my-project --force
+```
+
+- 创建项目 **my-project** , 合并目标目录（如果存在）
+
+```bash
+fe6 init my-project -m
+# OR
+fe6 init my-project --merge
+```
+
+- 从 github 模板仓库 ieditor 创建项目 **my-project**
+
+```bash
+fe6 init my-project -c https://github.com/iq9891/ieditor.git
+# OR
+fe6 init my-project --clone https://github.com/iq9891/ieditor.git
+```
+
+## 示例
 
 ![示例](./public/demo.gif)
 
-# cli 周边
+## cli 周边
 
 | 项目 | 状态 | 描述 |
 |---------|--------|-------------|
@@ -43,3 +81,7 @@ fe6 init a -c https://github.com/iq9891/ieditor.git
 [@fe6/cli-package]: https://www.npmjs.com/package/@fe6/cli
 [@fe6/cli-utils-package]: https://www.npmjs.com/package/@fe6/cli-utils
 [@fe6/tpl-vue2-js-package]: https://www.npmjs.com/package/@fe6/tpl-vue2-js
+
+## 提问
+
+若遇到问题，请移步 -> [issues](https://github.com/fe6/cli/issues)
