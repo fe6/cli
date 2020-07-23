@@ -11,13 +11,6 @@ module.exports = () => {
     .command("init <app-name>")
     .description("initialize the project")
     .option("-c, --clone <url>", "Use git clone when fetching remote preset")
-    .option("-d, --default", "Skip prompts and use default preset")
-    .option("-f, --force", "Overwrite target directory if it exists")
-    .option(
-      "-g, --git [message]",
-      "Force git initialization with initial commit message"
-    )
-    .option("-n, --no-git", "Skip git initialization")
     .option("-f, --force", "Overwrite target directory if it exists")
     .option("-m, --merge", "Merge target directory if it exists")
     .action((name, cmd) => {
@@ -29,10 +22,6 @@ module.exports = () => {
             "\n Info: You provided more than one argument. The first one will be used as the app's name, the rest are ignored."
           )
         );
-      }
-      // --git makes commander to default git to true
-      if (process.argv.includes("-g") || process.argv.includes("--git")) {
-        options.forceGit = true;
       }
 
       init(name, options);
