@@ -1,11 +1,15 @@
 # `tpl-ali-mini`
 
-> TODO: description
+> 支付宝小程序的项目模板
 
-## Usage
+## 集成
 
-```
-const tplAliMini = require('tpl-ali-mini');
+- 官方 api 的二次封装
+- request 的二次封装
+- 环境变量的简单配置
+- 公共方法的封装
+- 语法规范的封装
+- git commit 信息的管理
 
-// TODO: DEMONSTRATE API
-```
+[更新记录](https://github.com/fe6/cli/blob/master/packages/tpl-vue2-js/CHANGELOG.md)
+
