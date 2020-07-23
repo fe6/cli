@@ -3,9 +3,9 @@
 const program = require("commander");
 const pkg = require("../../package");
 const init = require("./init");
-const suggestCmd = require("../../lib/util/suggest-cmd");
-const helpInfo = require("../../lib/util/help-info");
-const enhanceErrorMes = require("../../lib/util/enhance-error-mes");
+const suggestCmd = require("../util/suggest-cmd");
+const helpInfo = require("../util/help-info");
+const enhanceErrorMes = require("../util/enhance-error-mes");
 
 function cmd() {
   program
