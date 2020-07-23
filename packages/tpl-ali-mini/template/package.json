@@ -1,0 +1,22 @@
+{
+  "name": "{{name}}",
+  "version": "{{version}}",
+  "license": "MIT",
+  "scripts": {
+    "precommit": "yarn jslint && yarn prettier && yarn style",
+    "jslint": "eslint -c .eslintrc.js .",
+    "prettier": "prettier --write .",
+    "style": "stylelint **/*.acss --fix"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
+    "@fe6/norm": "^2.1.0",
+    "husky": "^4.2.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn precommit"
+    }
+  }
+}

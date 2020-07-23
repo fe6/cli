@@ -1,0 +1,10 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/web/web"
+  ],
+  "window": {
+    "defaultTitle": "{{name}}",
+    "responsive": true
+  }
+}

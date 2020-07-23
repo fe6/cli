@@ -1,0 +1,6 @@
+/** @format */
+
+Page({
+  data: {},
+  onLoad() {},
+});

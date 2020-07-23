@@ -1,0 +1,15 @@
+node_modules/*
+.DS_Store
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+.history/
+.tea
+*.log
+package-lock.json
+yarn.lock
+verify-commit.js
