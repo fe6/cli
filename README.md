@@ -68,19 +68,27 @@ fe6 init my-project --clone https://github.com/iq9891/ieditor.git
 |---------|--------|-------------|
 | [@fe6/cli] | [![@fe6/cli-status]][@fe6/cli-package] | 创建应用工具 |
 | [@fe6/cli-utils] | [![@fe6/cli-utils-status]][@fe6/cli-utils-package] | cli 公共方法 |
-| [@fe6/tpl-vue2-js] | [![@fe6/tpl-vue2-js-status]][@fe6/tpl-vue2-js-package] | cli 内置 Vue 2.x 的 js 项目模板 |
+| [@fe6/tpl-vue2-js] | [![@fe6/tpl-vue2-js-status]][@fe6/tpl-vue2-js-package] | cli 内置 **Vue 2.x** 的 **JavaScript** 项目模板 |
+| [@fe6/tpl-ali-mini] | [![@fe6/tpl-ali-mini-status]][@fe6/tpl-ali-mini-package] | cli 内置 **支付宝小程序** 项目模板 |
+| [@fe6/tpl-flutter] | [![@fe6/tpl-flutter-status]][@fe6/tpl-flutter-package] | cli 内置 **flutter** 项目模板 |
 
 [@fe6/cli]: https://github.com/fe6/cli/tree/master/packages/cli
 [@fe6/cli-utils]: https://github.com/fe6/cli/tree/master/packages/cli-utils
 [@fe6/tpl-vue2-js]: https://github.com/fe6/cli/tree/master/packages/tpl-vue2-js
+[@fe6/tpl-ali-mini]: https://github.com/fe6/cli/tree/master/packages/tpl-ali-mini
+[@fe6/tpl-flutter]: https://github.com/fe6/cli/tree/master/packages/tpl-flutter
 
 [@fe6/cli-status]: https://img.shields.io/npm/v/@fe6/cli.svg
 [@fe6/cli-utils-status]: https://img.shields.io/npm/v/@fe6/cli-utils.svg
 [@fe6/tpl-vue2-js-status]: https://img.shields.io/npm/v/@fe6/tpl-vue2-js.svg
+[@fe6/tpl-ali-mini-status]: https://img.shields.io/npm/v/@fe6/tpl-ali-mini.svg
+[@fe6/tpl-flutter-status]: https://img.shields.io/npm/v/@fe6/tpl-flutter.svg
 
 [@fe6/cli-package]: https://www.npmjs.com/package/@fe6/cli
 [@fe6/cli-utils-package]: https://www.npmjs.com/package/@fe6/cli-utils
 [@fe6/tpl-vue2-js-package]: https://www.npmjs.com/package/@fe6/tpl-vue2-js
+[@fe6/tpl-ali-mini-package]: https://www.npmjs.com/package/@fe6/tpl-ali-mini
+[@fe6/tpl-flutter-package]: https://www.npmjs.com/package/@fe6/tpl-flutter
 
 ## 提问
 
