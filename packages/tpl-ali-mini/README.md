@@ -1,4 +1,4 @@
-# `tpl-ali-mini`
+# tpl-ali-mini
 
 > 支付宝小程序的项目模板
 

@@ -1,0 +1,7 @@
+{
+  "env": "dev",
+  "api": "",
+  "debug": true,
+  "isUseCharles": true,
+  "charlesProxy": "{{ip}}:8888"
+}

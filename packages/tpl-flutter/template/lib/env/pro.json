@@ -1,0 +1,7 @@
+{
+  "env": "pro",
+  "api": "",
+  "debug": false,
+  "isUseCharles": false,
+  "charlesProxy": ""
+}

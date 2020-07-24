@@ -1,4 +1,4 @@
-# `cli`
+# cli
 
 > 快速搭建程序
 
@@ -14,4 +14,4 @@ fe6 init a -c https://github.com/iq9891/ieditor.git
 fe6 init a
 ```
 
-[更新记录](https://github.com/fe6/cli/blob/master/packages/cli/CHANGELOG.md)
+[更新记录](https://github.com/fe6/cli/blob/master/packages/tpl-flutter/CHANGELOG.md)

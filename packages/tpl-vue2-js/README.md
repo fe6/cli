@@ -1,4 +1,4 @@
-# `tpl-vue2-js`
+# tpl-vue2-js
 
 > VueJs 2.x 的项目模板
 

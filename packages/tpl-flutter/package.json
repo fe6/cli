@@ -1,0 +1,35 @@
+{
+  "name": "@fe6/tpl-flutter",
+  "version": "0.2.0",
+  "description": "flutter project template",
+  "keywords": [
+    "fe6"
+  ],
+  "author": "李梦龙 <649076408@qq.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "template": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "template",
+    "prompt.js"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fe6/cli.git",
+    "directory": "packages/@fe6/tpl-flutter"
+  },
+  "bugs": {
+    "url": "https://github.com/fe6/cli/issues"
+  },
+  "homepage": "https://github.com/fe6/cli#readme",
+  "dependencies": {
+    "@fe6/cli-utils": "^0.2.0"
+  }
+}

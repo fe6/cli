@@ -1,0 +1,18 @@
+{
+  "name": "{{name}}",
+  "author": "李梦龙 <649076408@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "log": "flutter logs",
+    "lint": "flutter format ./lib",
+    "build:aab": "flutter clean && flutter build appbundle",
+    "build:apk": "flutter clean && flutter build apk",
+    "build:ios": "flutter clean && flutter build ios",
+    "json": "flutter packages pub run build_runner watch"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
+    "husky": "^4.2.5"
+  }
+}
