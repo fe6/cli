@@ -109,15 +109,7 @@ async function create(projectName, options) {
             name: "tpl-vue2-js: js version project of vue2",
             value: "tpl-vue2-js"
           },
-          {
-            name: "tpl-vue2-ui-js: js component library of vue2",
-            value: "tpl-vue2-ui-js"
-          },
           { name: "tpl-flutter: flutter project", value: "tpl-flutter" },
-          {
-            name: "wechat-mini: weChat mini program",
-            value: "tpl-wechat-mini"
-          },
           { name: "ali-mini ali mini program", value: "tpl-ali-mini" }
         ]
       },
