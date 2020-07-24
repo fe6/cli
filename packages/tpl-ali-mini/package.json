@@ -1,6 +1,6 @@
 {
   "name": "@fe6/tpl-ali-mini",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "ali mini program",
   "keywords": [
     "fe6"
@@ -30,6 +30,6 @@
   },
   "homepage": "https://github.com/fe6/cli#readme",
   "dependencies": {
-    "@fe6/cli-utils": "^0.2.0"
+    "@fe6/cli-utils": "^0.3.0"
   }
 }

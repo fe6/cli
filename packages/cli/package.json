@@ -1,6 +1,6 @@
 {
   "name": "@fe6/cli",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "快速为模块和应用程序创建一个开发环境",
   "keywords": [
     "fe6",
@@ -32,10 +32,10 @@
   },
   "homepage": "https://github.com/fe6/cli#readme",
   "dependencies": {
-    "@fe6/cli-utils": "^0.2.0",
-    "@fe6/tpl-ali-mini": "^0.2.0",
-    "@fe6/tpl-flutter": "^0.2.0",
-    "@fe6/tpl-vue2-js": "^0.2.0",
+    "@fe6/cli-utils": "^0.3.0",
+    "@fe6/tpl-ali-mini": "^0.3.0",
+    "@fe6/tpl-flutter": "^0.3.0",
+    "@fe6/tpl-vue2-js": "^0.3.0",
     "boxen": "^4.2.0",
     "commander": "^6.0.0",
     "dayjs": "^1.8.30",
