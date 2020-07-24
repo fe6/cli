@@ -122,12 +122,6 @@ async function create(projectName, options) {
         ]
       },
       {
-        name: "name",
-        type: "input",
-        message: `app's name`,
-        default: "water"
-      },
-      {
         name: "version",
         type: "input",
         message: `app's version`,
@@ -153,6 +147,7 @@ async function create(projectName, options) {
       const err = await tplModule({
         data: {
           ...answer,
+          name,
           cwd: targetDir,
           date: dayjs().format("YYYY-MM-DD HH:mm:ss")
         },

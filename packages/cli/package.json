@@ -34,6 +34,7 @@
   "dependencies": {
     "@fe6/cli-utils": "^0.2.0",
     "@fe6/tpl-ali-mini": "^0.2.0",
+    "@fe6/tpl-flutter": "^0.2.0",
     "@fe6/tpl-vue2-js": "^0.2.0",
     "boxen": "^4.2.0",
     "commander": "^6.0.0",

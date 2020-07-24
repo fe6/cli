@@ -1,0 +1,7 @@
+{
+  "env": "lab",
+  "api": "",
+  "debug": false,
+  "isUseCharles": false,
+  "charlesProxy": ""
+}
