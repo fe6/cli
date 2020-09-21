@@ -33,18 +33,13 @@ export const importRouters = () => {
   return rq.keys().map((key) => rq(key).default);
 };
 
-// 动态产品路由管理
-// export const importProductRouters = () => {
-//   const rq = require.context('@/routers/product', true, /\.js$/);
-//   return rq.keys().map((key) => rq(key).default);
-// };
-
 // 动态接口路由管理，名字不能重复
 export const importApisRouters = () => {
   const rq = require.context('@/apis', true, /\.apis\.js$/);
+  const rgKey = /\.apis\.js$|^\.\//g;
   const newApis = {};
   rq.keys().forEach((key) => {
-    newApis[key] = rq(key).default;
+    newApis[key.replace(rgKey, '')] = rq(key).default;
   });
   return newApis;
 };
